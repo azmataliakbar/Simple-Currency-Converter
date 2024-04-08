@@ -1,6 +1,18 @@
 #! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
+import chalkAnimation from "chalk-animation";
+const sleep = () => {
+    return new Promise((res) => {
+        setTimeout(res, 10000);
+    });
+};
+async function welcome() {
+    let rainbowTitle = chalkAnimation.rainbow('\n🌟🌟🌟 Welcome to Typescript World of Colors 🌟🌟🌟\n🌟🌟🌟 Thank you Governor Sindh for Gov. Sindh Initiative Program 🌟🌟🌟\n🌟🌟🌟 Welcome to Strange World of Coding 🌟🌟🌟\n🌟🌟🌟 Good Luck to Everyone at Faculty of Gov. Sindh 🌟🌟🌟\n🌟🌟🌟 Never forget you are future of Pakistan 🌟🌟🌟');
+    await sleep();
+    rainbowTitle.stop();
+}
+await welcome();
 function rainbowText(text) {
     const rainbowColors = [
         chalk.red.bold.italic,
