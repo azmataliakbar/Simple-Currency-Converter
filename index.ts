@@ -82,7 +82,7 @@ console.log("\n",);
 
 console.log(chalk.italic.bold.underline.rgb(250, 245, 245)("Base value $1 = the rate of currency you're converting from :", fromAmmount));
 console.log(chalk.italic.bold.underline.rgb(250, 245, 245)("Base value $1 = the rate of currency you want to convert to:", toAmmount));
-console.log(chalk.italic.bold.underline.rgb(250, 245, 245)("Your converted amount is :", amount));
+console.log(chalk.italic.bold.underline.rgb(250, 245, 245)("You have requested to convert the amount :", amount));
 
 console.log("\n",);
 
