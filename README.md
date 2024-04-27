@@ -1,7 +1,7 @@
-# Currency-Converter
-<br>
-# Thhis is Currency Converter
-<br>
+Currency-Converter
+
+Thhis is Currency Converter
+
 Author: Azmat Ali
-<br>
+
 Project 5.0
